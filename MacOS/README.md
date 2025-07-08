@@ -4,6 +4,19 @@ You can import the iterm2 profile into the profiles. In iterm2
 Afterwards go
 `Profiles > Open Profiles > *choose the new Profile, delete the old one*`
 
+## brew
+In a single user environment, it is possible to install with the normal homebrew script
+
+In a multiple user environment add new brew to user:
+```
+cd $HOME
+git clone https://github.com/Homebrew/brew.git
+./brew/bin/brew tap homebrew/core
+```
+
+add brew to Path
+`PATH=$HOME/brew/bin:$PATH`
+
 ## aerospace
 To implement aerospace, just copy the aerospace.toml into .aerospace.toml in the homefolder of the user
 
