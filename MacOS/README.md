@@ -42,6 +42,8 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZS
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 ```
 
+copy the zshrc into the folder
+
 add plugins to zsh
 
 plugins=(
@@ -51,4 +53,7 @@ plugins=(
   fast-syntax-highlighting
   zsh-autocomplete
  )
+
+## Vim
+
 
