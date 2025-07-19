@@ -56,4 +56,6 @@ plugins=(
 
 ## Vim
 
+## Zipfiles
 
+Zum Abspeichern der Daten wird ein passwortgeschütztes zip file verwendet. Passwort hierzu ist auffindbar im keepass.
